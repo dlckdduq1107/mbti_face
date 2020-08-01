@@ -444,7 +444,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                         case 'INFP':
                             resultTitle = 'INFP 열정적인 중재자';
                             resultExplain =
-                                '잡생각쟁이 #게으른 완벽주의자 #게을러서 벼락치기 함 #멀티 안됨 #가끔 우울함에 심취 #의지못함 #여러명보다 한두명 노는게 좋음 #민폐극혐';
+                                '#잡생각쟁이 #게으른 완벽주의자 #게을러서 벼락치기 함 #멀티 안됨 #가끔 우울함에 심취 #의지못함 #여러명보다 한두명 노는게 좋음 #민폐극혐';
                             resultCeleb = 'INFP 타입 연예인: 정국, 태민, 우원재, 유아인, 후이, 에릭남, 조이, 아이유, 아린, 하연수';
                             gtag('event', '남자 결과 ENFJ', { event_category: '남자 결과' });
                             break;
@@ -458,7 +458,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                         case 'INTP':
                             resultTitle = 'INTP 논리적인 사색가';
                             resultExplain =
-                                '자발적 아웃사이더 #생각 많음 #지식에 대한 욕망 #진지충 #팩폭 하지말라는 소리 자주 들음 #감수성 풍부 #감정기복 없음 #상처 안받음 #농담싫어함 #개인주의자';
+                                '#자발적 아웃사이더 #생각 많음 #지식에 대한 욕망 #진지충 #팩폭 하지말라는 소리 자주 들음 #감수성 풍부 #감정기복 없음 #상처 안받음 #농담싫어함 #개인주의자';
                             resultCeleb = 'INTP 타입 연예인: 진, 슈가, 기리보이, 창모, 휘인, 정은지, 소연(라붐)';
                             gtag('event', '남자 결과 ENFJ', { event_category: '남자 결과' });
                             break;
@@ -568,7 +568,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                         case 'INFP':
                             resultTitle = 'INFP 열정적인 중재자';
                             resultExplain =
-                                '잡생각쟁이 #게으른 완벽주의자 #게을러서 벼락치기 함 #멀티 안됨 #가끔 우울함에 심취 #의지못함 #여러명보다 한두명 노는게 좋음 #민폐극혐';
+                                '#잡생각쟁이 #게으른 완벽주의자 #게을러서 벼락치기 함 #멀티 안됨 #가끔 우울함에 심취 #의지못함 #여러명보다 한두명 노는게 좋음 #민폐극혐';
                             resultCeleb = 'INFP 타입 연예인: 정국, 태민, 우원재, 유아인, 후이, 에릭남, 조이, 아이유, 아린, 하연수';
                             gtag('event', '여자 결과 ENFJ', { event_category: '여자 결과' });
                             break;
@@ -582,7 +582,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                         case 'INTP':
                             resultTitle = 'INTP 논리적인 사색가';
                             resultExplain =
-                                '자발적 아웃사이더 #생각 많음 #지식에 대한 욕망 #진지충 #팩폭 하지말라는 소리 자주 들음 #감수성 풍부 #감정기복 없음 #상처 안받음 #농담싫어함 #개인주의자';
+                                '#자발적 아웃사이더 #생각 많음 #지식에 대한 욕망 #진지충 #팩폭 하지말라는 소리 자주 들음 #감수성 풍부 #감정기복 없음 #상처 안받음 #농담싫어함 #개인주의자';
                             resultCeleb = 'INTP 타입 연예인: 진, 슈가, 기리보이, 창모, 휘인, 정은지, 소연(라붐)';
                             gtag('event', '여자 결과 ENFJ', { event_category: '여자 결과' });
                             break;
@@ -624,15 +624,16 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                 console.log('don1');
                 var title =
                     "<div class='" +
-                    prediction[0].className +
-                    "-animal-title'>" +
+                    // prediction[0].className +
+                    "type-name'>" +
                     resultTitle +
                     '</div>';
-                var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
+                var explain = "<div class='type-explain pt-2'>" + resultExplain + '</div>';
                 var celeb =
                     "<div class='" +
-                    prediction[0].className +
-                    "-animal-celeb pt-2 pb-2'>" +
+                    // prediction[0].className +
+                    
+                    "type-celeb pt-2 pb-2'>" +
                     resultCeleb +
                     '</div>';
                 $('.result-message').html(title + explain + celeb);

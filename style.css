@@ -337,16 +337,19 @@ label {
 
 
 
-.result-message {
+
+.type-name{
+    color: #75D701;
     font-size: 2rem;
 }
-
-.animal-explain {
+.type-explain{
     font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
 }
-
-.ISFJ-animal-title {
-    color: #3ba363;
+.type-celeb{
+    font-size:1.35rem;
+    color: #A593E0;
 }
 
 
