@@ -300,3 +300,51 @@ label {
     background-color: #35465d82;
     border: 1.5px dashed #ffffff;
 }
+
+.try-again-text {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
+}
+.try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
+}
+.h1, h1 {
+    font-size: 3rem;
+}
+.youtube-link:hover {
+    font-family: 'Jua', sans-serif;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.youtube-link {
+    font-family: 'Jua', sans-serif;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+
+
+
+
+.result-message {
+    font-size: 2rem;
+}
+
+.animal-explain {
+    font-size: 1.5rem;
+}
+
+.ISFJ-animal-title {
+    color: #3ba363;
+}
