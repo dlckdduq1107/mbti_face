@@ -350,6 +350,8 @@ label {
 .type-celeb{
     font-size:1.35rem;
     color: #A593E0;
+    width:78%;
+    margin: 0 auto;
 }
 
 
@@ -361,4 +363,18 @@ label {
 .ad-baner2{
     width:250px;
     margin:0 auto;
+}
+.ad-banner3{
+    width:380px;
+    margin:0 auto;
+}
+.ad-baner4{
+    margin:0 auto;
+    width:300px;
+}
+.ad-explain {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    text-align: center;
+    color: #ff0000;
 }
